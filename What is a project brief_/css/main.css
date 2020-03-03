@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "DEFAULT";
+  src: url("../fonts/default.ttf");
+}
+    
+@font-face {
+  font-family: "HEADING";
+  src: url("../fonts/heading.woff");
+}
+            
+@font-face {
+  font-family: "MENU";
+  src: url("../fonts/menu.ttf");
+}
+
+html {
+  font-family: "DEFAULT";
+  font-size: 20px;
+}
+            
+body{
+  min-height: 100vh;
+  margin: 0rem;
+}
+
+main{
+  margin: 0rem auto;
+  padding: 1rem;
+  max-width: 45rem;
+}
+
+article{
+  margin-bottom: 10rem;
+}
+
+section{
+  margin-top: 3rem;
+}
+
+h1, h2, h3, p{
+  margin: 0rem;
+}
+
+img{
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.table-content{
+  margin-top: 1rem;
+  background-color: #fbf9ea;
+}
+
+.table-content > p{
+  margin: 0rem;
+}
+
+.table-content > ul{
+  margin: 0rem;
+  padding-top: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+section > time{
+  font-size: 0.8rem;
+  color: #777777;
+}
+
+section > ul{
+  text-decoration: underline;
+  color: #000;
+  padding-left: 1rem;
+}
+
+section > div > ul > li > a:hover{
+  color: #ff2d3c;
+}
+
+section > div > ul > li > a{
+  color: #000;
+}
+
+section > p{
+  margin-top: 2rem;
+}
+
+section > h2{
+  font-size: 1.3rem;
+  color: #ff2d3c;
+  margin-top: 3rem;
+}
+
+section > img{
+  max-width: 100%;
+  margin-top: 2rem;
+}
+
+h3{
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 300px){
+  h1{
+    font-size: calc(1vw + 1.35rem);
+  }
+}
+
+@media screen and (min-width: 380px){
+  .table-content{
+    width: 17rem;
+  }
+}
+
+@media screen and (min-width: 460px){
+  .table-content{ 
+    padding: calc(8.33vw - 1.915rem );
+  }
+}
+
+@media screen and (min-width: 700px){
+  h1{
+    font-size: calc(1.33vw + 1.24rem);
+  }
+  .table-content{
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 1000px){
+  h1{
+    font-size: calc(0.4vw + 1.7rem);
+  }
+}
